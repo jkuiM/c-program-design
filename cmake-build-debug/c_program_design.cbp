@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="c_program_design"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="F:/c/c-program-design/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_program_design">
+				<Option output="F:/c/c-program-design/cmake-build-debug/c_program_design.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/c/c-program-design/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_program_design"/>
+					<CompileFile command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="c_program_design/fast">
+				<Option output="F:/c/c-program-design/cmake-build-debug/c_program_design.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="F:/c/c-program-design/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="F:/c/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 c_program_design/fast"/>
+					<CompileFile command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="F:/c/c-program-design/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="F:/c/c-program-design/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="F:/c/mingw64/bin/mingw32-make.exe -f &quot;F:/c/c-program-design/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="F:/c/c-program-design/main.c">
+			<Option target="c_program_design"/>
+		</Unit>
+		<Unit filename="F:/c/c-program-design/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
